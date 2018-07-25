@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.0.7'
 # Use sqlite3 as the database for Active Record
 group :production do
+  gem 'rails_12factor'
   gem 'pg'
 end
 group :development do
